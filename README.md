@@ -1,6 +1,8 @@
 # collage
 Automatic generete photo collage
 
+<img src="http://i.imgur.com/ynwMunQ.jpg">
+
 Example of use
 
 ```html

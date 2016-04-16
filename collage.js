@@ -1,5 +1,5 @@
 /*
-*	Plugin: Images auto colage v 1.1
+*	Plugin: Images auto colage v 1.2
 *	Author: Alexandr Drozd
 *	Year: 2016
 */
@@ -34,10 +34,10 @@
 			for(var i = 0; i < rs.length; i++){
 				try{
 					for(var j = 0; j < rs[i].length; j++){
-						it[id].style.width = rs[i][j]*((pw-((rs[i].length-1)*m))/rs[i].sum())/pc+'%';
-						it[id].style.height = ((pw-((rs[i].length-1)*m))/rs[i].sum())*avh/pc+'%';
-						if(j < rs[i].length-1) it[id].style.marginRight = (m/pc)+'%';
-						if(i < rs.length-1) it[id].style.marginBottom = (m/pc)+'%';
+						it[id].style.width = rs[i][j]*((pw-((rs[i].length-1)*m))/rs[i].sum())+'px';
+						it[id].style.height = ((pw-((rs[i].length-1)*m))/rs[i].sum())*avh+'px';
+						if(j < rs[i].length-1) it[id].style.marginRight = m+'px';
+						if(i < rs.length-1) it[id].style.marginBottom = m+'px';
 						id++;
 					}
 				} catch(e){}

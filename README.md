@@ -37,4 +37,4 @@ $('.collage').collage({
 });
 ```
 
-<a href="https://jsfiddle.net/v7sefrcw/7/" target="_blank">demo page</a>
+<a href="https://jsfiddle.net/v7sefrcw/8/" target="_blank">demo page</a>

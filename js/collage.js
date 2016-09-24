@@ -18,7 +18,7 @@
 				widths.push(width);
 				s[0] = s[0]+width;
 			});
-			while(l < Math.ceil(s[0]/d.width)){
+			while(l < Math.ceil(s[0]/d.width-1)){
 				r[l] = [];
 				s[1][l] = 0;
 				while(i < widths.length && s[1][l]+(r[l].length*opts.margin)<d.width+opts.margin){

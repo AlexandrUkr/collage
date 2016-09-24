@@ -16,25 +16,25 @@ Example of use
 ```
 
 ```html
-	<div class="collage">
-		<img src="images/1.jpg">
-		<img src="images/2.jpg">
-		<img src="images/3.jpg">
-		<img src="images/4.jpg">
-		<img src="images/5.jpg">
-		<img src="images/6.jpg">
-		<img src="images/7.jpg">
-		<img src="images/8.jpg">
-		<img src="images/9.jpg">
-		<img src="images/10.jpg">
-	</div>
+<div class="collage">
+	<img src="images/1.jpg">
+	<img src="images/2.jpg">
+	<img src="images/3.jpg">
+	<img src="images/4.jpg">
+	<img src="images/5.jpg">
+	<img src="images/6.jpg">
+	<img src="images/7.jpg">
+	<img src="images/8.jpg">
+	<img src="images/9.jpg">
+	<img src="images/10.jpg">
+</div>
 ```
 
 ```javascript
-		$('.collage').collage({
-			maxHeight: 200,
-			margin: 3
-		});
+$('.collage').collage({
+	maxHeight: 200,
+	margin: 3
+});
 ```
 
 <a href="https://jsfiddle.net/v7sefrcw/7/" target="_blank">demo page</a>

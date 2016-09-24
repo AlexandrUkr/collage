@@ -5,8 +5,18 @@ Automatic generete photo collage
 
 Example of use
 
+```css
+.collage {
+	width: 640px;
+}
+.collage img {
+	display: block;
+	float: left;
+}
+```
+
 ```html
-	<div class="images">
+	<div class="collage">
 		<img src="images/1.jpg">
 		<img src="images/2.jpg">
 		<img src="images/3.jpg">
@@ -21,8 +31,8 @@ Example of use
 ```
 
 ```javascript
-		$('.images').colage({
-			AverageHeight: 200,
+		$('.collage').collage({
+			maxHeight: 200,
 			margin: 3
 		});
 ```

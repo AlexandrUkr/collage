@@ -1,7 +1,7 @@
 # Automatic photo collage
 Automatic generete photo collage
 
-<img src="http://i.imgur.com/ynwMunQ.jpg">
+<img src="http://image.prntscr.com/image/065fa950d04d4f12b895338cd8ca583e.jpeg">
 
 Example of use
 
